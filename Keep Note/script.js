@@ -71,10 +71,4 @@ const notes = JSON.parse(localStorage.getItem('notes'));
 
 if(notes){ notes.map((note)=> addNewNote(note))};
 
-addButton.addEventListener('click', () => addNewNote());
-
-
-
-
-
-           
+addButton.addEventListener('click', () => addNewNote());           
